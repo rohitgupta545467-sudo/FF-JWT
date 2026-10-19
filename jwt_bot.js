@@ -1,3 +1,4 @@
+process.env.NTBA_FIX_350 = 1; // PDF sending error fix
 const TelegramBot = require('node-telegram-bot-api');
 const crypto = require('crypto');
 const tls = require('tls');
